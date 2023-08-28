@@ -11,10 +11,10 @@ class TV:
         self.control = None
         TV.numTV = TV.numTV + 1
     
-    def setNumtv(self, num):
+    def setNumTV(self, num):
         TV.numTV = num
 
-    def getNumtv(self):
+    def getNumTV(self):
         return self.numTV
 
     def getEstado(self):
