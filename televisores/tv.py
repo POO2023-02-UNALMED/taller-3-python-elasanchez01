@@ -17,6 +17,9 @@ class TV:
     def getNumtv(self):
         return self.numTV
 
+    def getEstado(self):
+        return self.estado
+
     def setMarca(self, brand):
         self.marca = brand
 
