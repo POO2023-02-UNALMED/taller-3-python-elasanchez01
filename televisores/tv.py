@@ -9,7 +9,7 @@ class TV:
         self.estado = estado
         self.volumen = 1
         self.control = None
-        numTV = numTV + 1
+        numTV+ = 1
     
     def setNumtv(self, num):
         numTV = num
