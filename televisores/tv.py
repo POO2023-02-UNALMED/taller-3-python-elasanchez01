@@ -11,7 +11,7 @@ class TV:
         self.control = None
         TV.numTV = TV.numTV + 1
     
-    def setNumTV(num):
+    def setNumTV(self, num):
         TV.numTV = num
 
     def getNumTV(self):
