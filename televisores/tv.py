@@ -12,7 +12,7 @@ class TV:
         TV.numTV = TV.numTV + 1
     
     def setNumTV(cls, numTV):
-        cls.numTV = numTV
+        self.numTV = numTV
 
     def getNumTV(self):
         return self.numTV
