@@ -10,12 +10,13 @@ class TV:
         self.volumen = 1
         self.control = None
         TV.numTV = TV.numTV + 1
-    
-    def setNumTV(self, num):
-        TV.numTV = num
 
-    def getNumTV(self):
-        return self.numTV
+    @classmethod
+    def setNumTV(cls, num):
+        cls.numTV = num
+    @classmethod
+    def getNumTV(cls):
+        return cls.numTV
 
     def getEstado(self):
         return self.estado
