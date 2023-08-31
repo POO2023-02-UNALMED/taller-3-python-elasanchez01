@@ -1,5 +1,4 @@
 class Control:
-    tv = TV()
 
     def turnON(self):
         self.tv.turnOn()
