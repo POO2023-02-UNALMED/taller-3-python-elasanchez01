@@ -1,5 +1,7 @@
 class Control:
 
+    tv = TV(self, marca, estado)
+
     def turnON(self):
         self.tv.turnOn()
 
