@@ -2,7 +2,10 @@ from televisores.tv import TV
 
 class Control:
 
-    tv = TV(marca, estado)
+    tv = self.tv
+
+    def enlazar(tv):
+        self.tv = TV(marca, estado)
 
     def turnON(self):
         self.tv.turnOn()
